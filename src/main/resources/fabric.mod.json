@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "genesispioneer",
+  "version": "${version}",
+  "name": "Genesis: Pioneer",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kirbosoftware-Mods/GenesisPioneer"
+  },
+  "license": "MIT",
+  "icon": "assets/genesispioneer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.kirbosoftware.genesispioneer.client.GenesisPioneerClient"
+    ],
+    "main": [
+      "com.kirbosoftware.genesispioneer.Genesis_Pioneer"
+    ]
+  },
+  "mixins": [
+    "genesispioneer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
