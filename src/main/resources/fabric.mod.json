@@ -16,7 +16,10 @@
       "com.kirbosoftware.genesispioneer.client.GenesisPioneerClient"
     ],
     "main": [
-      "com.kirbosoftware.genesispioneer.Genesis_Pioneer"
+      "com.kirbosoftware.genesispioneer.GenesisPioneer"
+    ],
+    "fabric-datagen":[
+      "com.kirbosoftware.genesispioneer.data.gen.GPDataGenEntry"
     ]
   },
   "mixins": [
