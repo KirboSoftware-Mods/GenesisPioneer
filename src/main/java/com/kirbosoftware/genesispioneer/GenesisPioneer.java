@@ -1,5 +1,6 @@
 package com.kirbosoftware.genesispioneer;
 
+import com.kirbosoftware.genesispioneer.config.GPConfig;
 import com.kirbosoftware.genesispioneer.item.GPItems;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
@@ -18,6 +19,9 @@ public class GenesisPioneer implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Initializing components....");
+
+        GPConfig.INSTANCE.save();
+        GPConfig.INSTANCE.load();
 
         GPItems.init();
 

@@ -20,6 +20,9 @@
     ],
     "fabric-datagen":[
       "com.kirbosoftware.genesispioneer.data.gen.GPDataGenEntry"
+    ],
+    "modmenu": [
+      "com.kirbosoftware.genesispioneer.compat.GPModMenu"
     ]
   },
   "mixins": [
@@ -28,6 +31,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": "*"
   }
 }
