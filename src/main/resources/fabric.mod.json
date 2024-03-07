@@ -4,7 +4,9 @@
   "version": "${version}",
   "name": "Genesis: Pioneer",
   "description": "",
-  "authors": [],
+  "authors": [
+    "KirboSoftware"
+  ],
   "contact": {
     "repo": "https://github.com/kirbosoftware-Mods/GenesisPioneer"
   },

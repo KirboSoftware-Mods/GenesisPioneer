@@ -2,6 +2,7 @@ package com.kirbosoftware.genesispioneer;
 
 import com.kirbosoftware.genesispioneer.config.GPConfig;
 import com.kirbosoftware.genesispioneer.item.GPItems;
+import com.kirbosoftware.genesispioneer.item.tab.GPTabs;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.NotNull;
@@ -24,6 +25,8 @@ public class GenesisPioneer implements ModInitializer {
         GPConfig.INSTANCE.load();
 
         GPItems.init();
+
+        GPTabs.init();
 
         LOGGER.info("Initializing done! Enjoy the early game progression....");
     }
